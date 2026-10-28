@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Islom &amp; Sabrina</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="bg-top" aria-hidden="true"></div>
+    <div class="bg-bottom" aria-hidden="true"></div>
+
+    <div id="gate">
+        <div class="envelope-wrap" onclick="openInvite()">
+            <div class="envelope" id="envelopeEl">
+                <div class="env-body"></div>
+                <div class="env-shadow-l"></div>
+                <div class="env-shadow-r"></div>
+                <div class="env-flap"></div>
+                <div class="seal">I&amp;S</div>
+            </div>
+            <div class="gate-title">Taklifnoma</div>
+            <div class="gate-hint">Ochish uchun ustiga bosing</div>
+        </div>
+    </div>
+
+    <main id="invite">
+
+        <section class="hero animate from-right">
+            <div class="photo-frame">
+                <img src="is.jpeg" alt="Alisher & Zebiniso">
+            </div>
+            <br>
+            <br>
+            <h1>Islom &amp; Sabrina</h1>
+            <div class="date">14 noyabr 2026</div>
+        </section>
+
+        <div class="monogram animate from-top">
+            <img src="bg-monogram.jpeg" alt="I &amp; S">
+        </div>
+
+        <section class="intro animate from-top">
+            <div class="divider">❦</div>
+            <h2>Hurmatli aziz mehmonimiz!</h2>
+            <p>Sizni hayotimizning eng go'zal va baxtli onlarida baxtimizga sherik bo'lishingizni istab
+                shodiyonamizga taklif etamiz!</p>
+        </section>
+
+        <section class="timeline animate from-right" id="program">
+            <div class="month-title">Noyabr</div>
+
+            <table class="calendar">
+                <thead>
+                    <tr>
+                        <th>Du</th>
+                        <th>Se</th>
+                        <th>Cho</th>
+                        <th>Pa</th>
+                        <th>Ju</th>
+                        <th>Sha</th>
+                        <th>Ya</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td class="selected">14</td>
+                        <td>15</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="t-item animate from-bottom">
+                <div class="t-label">Sizni</div>
+                <div class="t-time">18:00 - «Kechgi bazim»ga</div>
+                <br>
+                <div class="t-label">Lutfan taklif e'tamiz!</div>
+            </div>
+        </section>
+
+        <section class="countdown-wrap animate from-top" id="countdown">
+            <div class="cd-grid">
+                <div class="cd-box">
+                    <div class="cd-num" id="cd-days">--</div>
+                    <div class="cd-label">kun</div>
+                </div>
+                <div class="cd-box">
+                    <div class="cd-num" id="cd-hours">--</div>
+                    <div class="cd-label">soat</div>
+                </div>
+                <div class="cd-box">
+                    <div class="cd-num" id="cd-min">--</div>
+                    <div class="cd-label">daqiqa</div>
+                </div>
+                <div class="cd-box">
+                    <div class="cd-num" id="cd-sec">--</div>
+                    <div class="cd-label">soniya</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="venue animate from-left" id="venue">
+            <h2>Manzil:</h2>
+            <p>Navoiy shahar<br>«Muhtasham» to'yxonasi, Islom Karimov prospekti, 468A</p>
+            <a class="btn" href="https://yandex.uz/maps/-/CXborF-E" target="_blank" rel="noopener">Kartadan ko'rish</a>
+        </section>
+
+        <footer class="animate from-bottom">
+            <div class="small">14.11.2026</div>
+            <p>inviteu.io</p>
+            <div class="social">
+                <a href="https://t.me/inviteuio">
+                    <img src="telegram.png" alt="telegram" />
+                </a>
+                <a href="https://www.instagram.com/inviteu_io/">
+                    <img src="instagram.png" alt="instagram" />
+                </a>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
