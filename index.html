@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="uz">
 
 <head>
     <meta charset="UTF-8">
@@ -9,6 +9,12 @@
 </head>
 
 <body>
+
+    <div class="lang-switch" role="group" aria-label="Language">
+        <button type="button" data-lang="uz">UZ</button>
+        <button type="button" data-lang="ru">RU</button>
+        <button type="button" data-lang="en">EN</button>
+    </div>
 
     <div class="bg-top" aria-hidden="true"></div>
     <div class="bg-bottom" aria-hidden="true"></div>
@@ -22,8 +28,8 @@
                 <div class="env-flap"></div>
                 <div class="seal">I&amp;S</div>
             </div>
-            <div class="gate-title">Taklifnoma</div>
-            <div class="gate-hint">Ochish uchun ustiga bosing</div>
+            <div class="gate-title" data-i18n="gateTitle">Taklifnoma</div>
+            <div class="gate-hint" data-i18n="gateHint">Ochish uchun ustiga bosing</div>
         </div>
     </div>
 
@@ -31,12 +37,12 @@
 
         <section class="hero animate from-right">
             <div class="photo-frame">
-                <img src="is.jpeg" alt="Alisher & Zebiniso">
+                <img src="is.jpeg" alt="Islombek &amp; Sabrina">
             </div>
             <br>
             <br>
             <h1>Islombek &amp; Sabrina</h1>
-            <div class="date">14 noyabr 2026</div>
+            <div class="date" data-i18n="date">14 noyabr 2026</div>
         </section>
 
         <div class="monogram animate from-top">
@@ -45,24 +51,24 @@
 
         <section class="intro animate from-top">
             <div class="divider">❦</div>
-            <h2>Hurmatli aziz mehmonimiz!</h2>
-            <p>Sizni hayotimizning eng go'zal va baxtli onlarida baxtimizga sherik bo'lishingizni istab
+            <h2 data-i18n="introTitle">Hurmatli aziz mehmonimiz!</h2>
+            <p data-i18n="introText">Sizni hayotimizning eng go'zal va baxtli onlarida baxtimizga sherik bo'lishingizni istab
                 shodiyonamizga taklif etamiz!</p>
         </section>
 
         <section class="timeline animate from-right" id="program">
-            <div class="month-title">Noyabr</div>
+            <div class="month-title" data-i18n="month">Noyabr</div>
 
             <table class="calendar">
                 <thead>
                     <tr>
-                        <th>Du</th>
-                        <th>Se</th>
-                        <th>Cho</th>
-                        <th>Pa</th>
-                        <th>Ju</th>
-                        <th>Sha</th>
-                        <th>Ya</th>
+                        <th data-i18n="wd0">Du</th>
+                        <th data-i18n="wd1">Se</th>
+                        <th data-i18n="wd2">Cho</th>
+                        <th data-i18n="wd3">Pa</th>
+                        <th data-i18n="wd4">Ju</th>
+                        <th data-i18n="wd5">Sha</th>
+                        <th data-i18n="wd6">Ya</th>
                     </tr>
                 </thead>
 
@@ -79,10 +85,10 @@
                 </tbody>
             </table>
             <div class="t-item animate from-bottom">
-                <div class="t-label">Sizni</div>
-                <div class="t-time">18:00 - «Kechgi bazim»ga</div>
+                <div class="t-label" data-i18n="inviteTop">Sizni</div>
+                <div class="t-time" data-i18n="inviteTime">18:00 - «Kechgi bazim»ga</div>
                 <br>
-                <div class="t-label">Lutfan taklif e'tamiz!</div>
+                <div class="t-label" data-i18n="inviteBottom">Lutfan taklif e'tamiz!</div>
             </div>
         </section>
 
@@ -90,27 +96,27 @@
             <div class="cd-grid">
                 <div class="cd-box">
                     <div class="cd-num" id="cd-days">--</div>
-                    <div class="cd-label">kun</div>
+                    <div class="cd-label" data-i18n="days">kun</div>
                 </div>
                 <div class="cd-box">
                     <div class="cd-num" id="cd-hours">--</div>
-                    <div class="cd-label">soat</div>
+                    <div class="cd-label" data-i18n="hours">soat</div>
                 </div>
                 <div class="cd-box">
                     <div class="cd-num" id="cd-min">--</div>
-                    <div class="cd-label">daqiqa</div>
+                    <div class="cd-label" data-i18n="minutes">daqiqa</div>
                 </div>
                 <div class="cd-box">
                     <div class="cd-num" id="cd-sec">--</div>
-                    <div class="cd-label">soniya</div>
+                    <div class="cd-label" data-i18n="seconds">soniya</div>
                 </div>
             </div>
         </section>
 
         <section class="venue animate from-left" id="venue">
-            <h2>Manzil:</h2>
-            <p>Navoiy shahar<br>«Muhtasham» to'yxonasi, Islom Karimov prospekti, 468A</p>
-            <a class="btn" href="https://yandex.uz/maps/-/CXborF-E" target="_blank" rel="noopener">Kartadan ko'rish</a>
+            <h2 data-i18n="venueTitle">Manzil:</h2>
+            <p data-i18n-html="venueText">Navoiy shahar<br>«Muhtasham» to'yxonasi, Islom Karimov prospekti, 468A</p>
+            <a class="btn" href="https://yandex.uz/maps/-/CXborF-E" target="_blank" rel="noopener" data-i18n="mapBtn">Kartadan ko'rish</a>
         </section>
 
         <footer class="animate from-bottom">
